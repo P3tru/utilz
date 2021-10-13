@@ -1,0 +1,4 @@
+# Sets necessary environment variables
+
+export UTILZ_INCLUDE_PATH=@CMAKE_INSTALL_INCLUDE_DIR@
+export ROOT_INCLUDE_PATH=$UTILZ_INCLUDE_PATH:$ROOT_INCLUDE_PATH
